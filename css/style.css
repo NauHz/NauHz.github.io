@@ -10,6 +10,12 @@
     color: #0d0d0d;
 }
 
+/*封面图高亮
+#page-header.full_page {
+    filter: brightness(1.5); //切换深色主题时图片过于暗但是用了高亮后切回浅色又过于亮
+}
+*/
+
 /* 滚动条样式 */
 ::-webkit-scrollbar {
     width: 8px;
